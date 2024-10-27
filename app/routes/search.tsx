@@ -1,4 +1,4 @@
-import { json, LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
+import { json, type LoaderFunctionArgs, type MetaFunction } from "@remix-run/node";
 import { useLoaderData, Link, Form } from "@remix-run/react";
 import { searchNotes, SearchResponse } from '~/lib/api';
 import NoteList from '~/components/NoteList';
